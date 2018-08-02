@@ -24,7 +24,7 @@ The architecture of the neural network model is shown below. </br>
 
 
 ## Result
-Approximate training time: 1 hour
+Approximate training time: 1 hour </br>
 Fake images: </br>
 ![fake images](/result/fake_samples_epoch_10.png) </br>
 Real images: </br>
