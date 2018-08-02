@@ -9,7 +9,7 @@ demonstrated some very impressive results.  The general idea is that you train t
 given random noise as input, and one (A) to discern generated model examples from real examples.  Then, by training A to be an effective 
 discriminator, we can stack G and A to form our GAN, freeze the weights in the adversarial part of the network, and train the generative network 
 weights to push random noisy inputs towards the “real” example class output of the adversarial half. </br>
-![GAN architecture](GAN architecture.png) </br>
+![GAN architecture](GAN_architecture.png) </br>
 The architecture of the neural network model is shown below. </br>
 ![DCGAN architecture](DCGAN.png) </br>
 
@@ -24,8 +24,10 @@ The architecture of the neural network model is shown below. </br>
 
 
 ## Result
-![real images](/result/fake_samples_epoch_10.png) </br>
-![fake images](/result/real_samples.png) </br> 
+Fake images: </br>
+![fake images](/result/fake_samples_epoch_10.png) </br>
+Real images: </br>
+![real images](/result/real_samples.png) </br> 
 
 
 ## References:
